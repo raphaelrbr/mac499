@@ -7,7 +7,7 @@ long long table[maxn];
 
 void shiftOr(string t, string p) {
     int k = p.length();
-    long phi = ~1; // All bits set to 1
+    long phi = ~1; // All bits set to 0
 
     for (int i = 0; i <=255; ++i){
         table[i] = ~0;
